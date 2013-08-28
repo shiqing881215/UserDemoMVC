@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="src" output="work" path="work"/>
+	<classpathentry kind="lib" path="/Users/shiqing/Documents/workspace_jee/UserDemoMVC/WEB-INF/lib/formbeanfactory_2.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/shiqing/Documents/workspace_jee/UserDemoMVC/WEB-INF/lib/genericdao-2.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/shiqing/Documents/workspace_jee/UserDemoMVC/WEB-INF/lib/mysql-connector-java-5.1.14-bin.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/ecj-4.2.2.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="/Library/Tomcat/apache-tomcat-7.0.40/lib/tomcat-util.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
