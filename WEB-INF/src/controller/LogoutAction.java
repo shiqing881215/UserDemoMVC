@@ -17,7 +17,7 @@ public class LogoutAction extends Action{
 
 	@Override
 	public String perform(HttpServletRequest request) {
-		HttpSession session = request.getSession();
+		HttpSession session = request.getSession(false);
 		session.setAttribute("user", null);
 		return "login.jsp";
 	};

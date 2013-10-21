@@ -77,6 +77,7 @@ public class LoginAction extends Action {
 				errors.add("Invalid password.");
 				return "login.jsp";
 			} else {
+				session.setAttribute("user", user);
 				return "welcome.jsp";
 			}
 		} catch (RollbackException e) {

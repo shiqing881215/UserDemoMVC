@@ -22,6 +22,7 @@ public class Controller extends HttpServlet{
 		
 		Action.add(new LoginAction(model));
 		Action.add(new LogoutAction(model));
+		Action.add(new SearchAjaxAction(model));
 	}
 	
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 public abstract class Action {
 	public abstract String getActionName();
-	// Return the name of the jsp used to render the output
+	// Return the name of the jsp used to render the output or the .do to redirect
 	public abstract String perform(HttpServletRequest request);
 	// Map used to match an action name with the real action
 	/*
